@@ -29,8 +29,6 @@ final class CustomCell: UITableViewCell {
     override init(style: CustomCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        addViews()
-        layout()
         setupViews()
     }
     
@@ -54,6 +52,8 @@ private extension CustomCell {
     
     func setupViews() {
         setupLabels()
+        addViews()
+        layout()
     }
     
     

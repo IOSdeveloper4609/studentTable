@@ -9,8 +9,6 @@ import UIKit
 
 
 
-
-
 // MARK: - CustomizationTable
 
  class CustomizationTable: UIViewController {
@@ -56,10 +54,10 @@ import UIKit
             studentChoice.rating = 0
             studentChoice.gender = nil
         } else if menSwitch.isOn {
-            studentChoice.gender = "женский"
+            studentChoice.gender = "мужской"
             studentChoice.rating = nil
         } else if womanSwitch.isOn {
-            studentChoice.gender = "мужской"
+            studentChoice.gender = "женский"
             studentChoice.rating = nil
         }
     }

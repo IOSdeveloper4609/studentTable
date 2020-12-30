@@ -40,9 +40,8 @@ extension  TableViewController {
             ratingStudent.borderStyle = .roundedRect
         }
         
-        let canselButton = UIAlertAction(title: "отмена", style: .default, handler: nil)
+        let cancelButton = UIAlertAction(title: "отмена", style: .default, handler: nil)
         let addButton = UIAlertAction(title: "добавить", style: .cancel) { (_) in
-            
             guard let  name = alertController.textFields?[0].text else  { return }
             guard let  lastName  = alertController.textFields?[1].text else { return }
             guard let floor = alertController.textFields?[2].text else { return }
@@ -61,7 +60,7 @@ extension  TableViewController {
             }
         }
         
-        alertController.addAction(canselButton)
+        alertController.addAction(cancelButton)
         alertController.addAction(addButton)
         present(alertController, animated: true, completion: nil)
     }

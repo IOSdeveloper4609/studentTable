@@ -14,7 +14,7 @@ extension TableViewController {
     enum Constants {
         
         static var studentsArray = [
-            Student(nameStudent: "Диана ", lastNameStudent: "Киракосян", genderStudent: Gender.men.rawValue, ratingStudent: 9, socialNetwork: "https://vk.com/id43603871" ),
+            Student(nameStudent: "Диана ", lastNameStudent: "Киракосян", genderStudent: Gender.woman.rawValue, ratingStudent: 9, socialNetwork: "https://vk.com/id43603871" ),
             Student(nameStudent: "Айк", lastNameStudent: "Саркисян", genderStudent: Gender.men.rawValue, ratingStudent: 8, socialNetwork: "https://vk.com/id257096999" ),
             Student(nameStudent: "Бениамин", lastNameStudent: "Саркисян", genderStudent: Gender.men.rawValue, ratingStudent: 7, socialNetwork: "https://vk.com/beniamiiin"),
             Student(nameStudent: "Андрей", lastNameStudent: "Еремин", genderStudent: Gender.men.rawValue, ratingStudent: 10, socialNetwork: "https://vk.com/id67162897" ),

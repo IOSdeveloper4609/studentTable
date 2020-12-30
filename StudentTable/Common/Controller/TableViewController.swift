@@ -44,12 +44,11 @@ final class TableViewController: UIViewController {
     
     private func sortedStudents() {
         if studentChoice.gender != nil {
-           
-          filteredStudents.removeAll { $0.genderStudent.contains(studentChoice.gender ?? "")}
+            filteredStudents = Constants.studentsArray.filter { $0.genderStudent == studentChoice.gender }
             self.myTableView.reloadData()
         }
         else if studentChoice.rating != nil {
-            filteredStudents.removeAll { $0.ratingStudent <= 8 }
+            filteredStudents = Constants.studentsArray.filter { $0.ratingStudent > 8 }
             self.myTableView.reloadData()
         }
     }
