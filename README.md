@@ -1,6 +1,8 @@
-✅Только код - без storyboard и xib
-✅Архитектура MVC
-✅WebKit
+✅ Только код - без storyboard и xib
+
+✅ Архитектура MVC 
+
+✅ WebKit
 
 
 
