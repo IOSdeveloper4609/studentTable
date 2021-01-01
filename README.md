@@ -1,4 +1,4 @@
-# studentTable
+# StudentTable
 
 
 ✅ Только код - без storyboard и xib
